@@ -42,6 +42,7 @@
 	아야어여오요우유유으잉
 	오바쌈바
 	</p>
-	<a href="naver.com">naver</a>
+	<a href="/helloweb/index.jsp">index로가자</a>
+	<a href="webapp/form.js">여기로 갈 거야</a>
 </body>
 </html>
