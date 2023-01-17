@@ -35,6 +35,7 @@ public class EmaillistDao {
 				vo.setLastName(rs.getString(3));
 				vo.setEmail(rs.getString(4));
 
+				result.add(vo);
 			}
 
 		} catch (SQLException e) {
