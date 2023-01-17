@@ -4,8 +4,8 @@
 <%
 	request.setCharacterEncoding("utf-8");
 
-	String no = request.getParameter("no");
-	Long no = Long.parseLong(no);
+	String nOo = request.getParameter("no");
+	Long no = Long.parseLong(nOo);
 	String password = request.getParameter("password");
 
 	

@@ -67,7 +67,7 @@ public class GuestbookDao {
 		try {
 			conn = getConnection();
 
-			String sql = "insert into emaillist values(null,?,?,?,now())";
+			String sql = "insert into guestbook values(null,?,?,?,now())";
 			pstmt = conn.prepareStatement(sql);
 
 			pstmt.setString(1, vo.getName());
@@ -96,7 +96,7 @@ public class GuestbookDao {
 
 	}
 
-	public void deleteByGuestbook(GuestbookVo vo) {
+	public void deleteByGuestbook(Long no, String password) {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 
@@ -106,8 +106,8 @@ public class GuestbookDao {
 			String sql = "delete from guestbook where no = ? and where password = ?";
 			pstmt = conn.prepareStatement(sql);
 
-			pstmt.setLong(1, vo.getNo());
-			pstmt.setString(2, vo.getPassword());
+			pstmt.setLong(1, no);
+			pstmt.setString(2, password);
 
 			pstmt.executeUpdate();
 
