@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>방명록</title>
+<title>방명록 예제입니다.</title>
 </head>
 <body>
 	<form action="<%=request.getContextPath() %>/gb?a=add" method="post">
