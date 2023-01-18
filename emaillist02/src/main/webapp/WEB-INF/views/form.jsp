@@ -12,7 +12,7 @@
 		아래 항목을 기입하고 등록 버튼을 클릭하세요.
 	</p>
 	<form action="/emaillist02/el?a=add" method="post">
-	<input type=hidden" name="a" value="add">
+	<input type="hidden" name="a" value="add">
 	    성: <input type="text" name="firstName" value="" ><br>
 	    이름: <input type="text" name="lastName" value=""><br>
 	    이메일: <input type="text" name="email" value=""><br>
