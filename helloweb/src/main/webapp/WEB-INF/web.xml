@@ -27,4 +27,14 @@
     <servlet-name>CookieServlet</servlet-name>
     <url-pattern>/cookie</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LifeCycle</display-name>
+    <servlet-name>LifeCycle</servlet-name>
+    <servlet-class>com.douzone.helloweb.controller.LifeCycle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LifeCycle</servlet-name>
+    <url-pattern>/lc</url-pattern>
+  </servlet-mapping>
 </web-app>
